@@ -26,6 +26,7 @@ def run_game():
 
         # При каждом проходе цикла перерисовывается экран.
         screen.fill(ai_settings.bg_color)
+        ship.blitme()
 
         # Отображение последнего прорисованного экрана.
         pygame.display.flip()
